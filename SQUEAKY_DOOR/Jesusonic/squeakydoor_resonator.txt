@@ -1,0 +1,11 @@
+desc: SQUEAK_DOOR.pd OSC controller: Resonator
+
+// these lines tell Reaper that there are no audio inputs or outputs
+in_pin:none;
+out_pin:none;
+
+slider1:1<0,1,0.00001>Frequency Shift
+
+@slider
+@block
+@sample

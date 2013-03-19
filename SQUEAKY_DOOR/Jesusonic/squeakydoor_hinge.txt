@@ -1,0 +1,16 @@
+desc: SQUEAK_DOOR.pd OSC controller: Hinge
+
+// these lines tell Reaper that there are no audio inputs or outputs
+in_pin:none;
+out_pin:none;
+
+slider1:1<0,1,0.00001>Gain
+slider2:1<0,1,0.00001>Pitch
+slider3:1<0,1,0.00001>Randomness
+slider4:1<0,1,0.00001>Pulse-Width
+slider5:1<0,1,0.00001>Attack
+slider6:1<0,1,0.00001>X-Hinge Modulation
+
+@slider
+@block
+@sample
