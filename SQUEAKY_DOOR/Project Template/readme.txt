@@ -11,8 +11,7 @@ re-ordering functionality might be implemented one day, but this is somewhat
 complicated and needs to be handled on the client (pd) side - I think)
 
 Rename Track 1 to preset name to be loaded into PD everytime track is renamed,
-PD loads corresponding preset. Presets do *not* load automatically when
-project is opened.
+PD loads corresponding preset.
 
 For easy navigation in REAPER:
 -go to Actions -> Show action list...
