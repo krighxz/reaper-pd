@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "4.32/OSX64" 1365537887
+<REAPER_PROJECT 0.1 "4.32/OSX64" 1368465568
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -12,8 +12,8 @@
   GRID 3455 8 1.00000000000000 8 1.00000000000000 0
   TIMEMODE 1 0 -1
   PANMODE 3
-  CURSOR 7.01768481694871
-  ZOOM 43.07844575817351 0 0
+  CURSOR 6.91552663111172
+  ZOOM 32.73792613008918 0 0
   VZOOMEX 6
   USE_REC_CFG 0
   RECMODE 1
@@ -52,13 +52,13 @@
   GLOBAL_AUTO -1
   TEMPO 120.00000000000000 4 4
   PLAYRATE 1.00000000000000 0 0.25000 4.00000
-  SELECTION 9.70731400913316 9.70731400913316
-  SELECTION2 9.70731400913316 9.70731400913316
+  SELECTION 0.36654734793878 10.90478360117882
+  SELECTION2 0.36654734793878 10.90478360117882
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0
   MASTERPEAKCOL 16576
   MASTERMUTESOLO 0
-  MASTERTRACKVIEW 0 0.666700 0.500000 0.500000 -1 -1 -1
+  MASTERTRACKVIEW 0 0.666700 0.500000 0.500000 0 -1 0
   MASTERHWOUT 0 0 1.00000000000000 0.00000000000000 0 0 0 -1.00000000000000
   MASTER_NCH 2 2
   MASTER_VOLUME 1.00000000000000 0.00000000000000 -1.00000000000000 -1.00000000000000 1.00000000000000
@@ -92,7 +92,7 @@
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
-    SHOWINMIX 1 0.666700 0.500000 1 0.500000 -1 -1 -1
+    SHOWINMIX 1 0.666700 0.500000 1 0.500000 0 -1 0
     FREEMODE 0
     SEL 0
     REC 0 0 0 0 0 0 0
@@ -138,9 +138,9 @@
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 2 0
-    SHOWINMIX 1 0.666700 0.500000 1 0.500000 -1 -1 -1
+    SHOWINMIX 1 0.666700 0.500000 1 0.500000 0 -1 0
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0
@@ -158,13 +158,13 @@
       DOCKED 0
       BYPASS 0 0
       <JS "squeakydoor_hinge.txt" ""
-        0.000000 0.656190 0.054660 1.000000 0.162260 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        0.000000 0.654280 0.057560 0.902000 0.340820 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
       >
       FLOATPOS 0 0 0 0
       FXID {1B128EAC-8632-4B40-AEA9-2D44BC73E055}
       <PARMENV 0 0.000000 1.000000 0.500000
         ACT 1
-        VIS 1 0 1.000000
+        VIS 1 1 1.000000
         LANEHEIGHT 0 0
         ARM 1
         DEFSHAPE 0 -1 -1
@@ -191,7 +191,7 @@
       >
       <PARMENV 1 0.000000 1.000000 0.500000
         ACT 1
-        VIS 1 0 1.000000
+        VIS 1 1 1.000000
         LANEHEIGHT 524 0
         ARM 1
         DEFSHAPE 0 -1 -1
@@ -226,7 +226,7 @@
       >
       <PARMENV 2 0.000000 1.000000 0.500000
         ACT 1
-        VIS 1 0 1.000000
+        VIS 1 1 1.000000
         LANEHEIGHT 0 0
         ARM 1
         DEFSHAPE 0 -1 -1
@@ -249,7 +249,7 @@
       >
       <PARMENV 3 0.000000 1.000000 0.500000
         ACT 1
-        VIS 1 0 1.000000
+        VIS 1 1 1.000000
         LANEHEIGHT 0 0
         ARM 1
         DEFSHAPE 0 -1 -1
@@ -262,7 +262,7 @@
       >
       <PARMENV 4 0.000000 1.000000 0.500000
         ACT 1
-        VIS 1 0 1.000000
+        VIS 1 1 1.000000
         LANEHEIGHT 0 0
         ARM 1
         DEFSHAPE 0 -1 -1
@@ -277,7 +277,7 @@
       >
       <PARMENV 5 0.000000 1.000000 0.500000
         ACT 1
-        VIS 1 0 1.000000
+        VIS 1 1 1.000000
         LANEHEIGHT 0 0
         ARM 1
         DEFSHAPE 0 -1 -1
@@ -296,9 +296,9 @@
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 2 0
-    SHOWINMIX 1 0.666700 0.500000 1 0.500000 -1 -1 -1
+    SHOWINMIX 1 0.666700 0.500000 1 0.500000 0 -1 0
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0
@@ -316,13 +316,13 @@
       DOCKED 0
       BYPASS 0 0
       <JS "squeakydoor_hinge.txt" ""
-        0.000000 0.139200 0.033890 0.137780 1.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        0.000000 0.171890 0.141550 0.137280 1.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
       >
       FLOATPOS 0 0 0 0
       FXID {1B128EAC-8632-4B40-AEA9-2D44BC73E055}
       <PARMENV 0 0.000000 1.000000 0.500000
         ACT 1
-        VIS 1 0 1.000000
+        VIS 1 1 1.000000
         LANEHEIGHT 0 0
         ARM 1
         DEFSHAPE 0 -1 -1
@@ -341,7 +341,7 @@
       >
       <PARMENV 1 0.000000 1.000000 0.500000
         ACT 1
-        VIS 1 0 1.000000
+        VIS 1 1 1.000000
         LANEHEIGHT 0 0
         ARM 1
         DEFSHAPE 0 -1 -1
@@ -361,7 +361,7 @@
       >
       <PARMENV 2 0.000000 1.000000 0.500000
         ACT 1
-        VIS 1 0 1.000000
+        VIS 1 1 1.000000
         LANEHEIGHT 0 0
         ARM 1
         DEFSHAPE 0 -1 -1
@@ -371,7 +371,7 @@
       >
       <PARMENV 3 0.000000 1.000000 0.500000
         ACT 1
-        VIS 1 0 1.000000
+        VIS 1 1 1.000000
         LANEHEIGHT 0 0
         ARM 1
         DEFSHAPE 0 -1 -1
@@ -381,7 +381,7 @@
       >
       <PARMENV 4 0.000000 1.000000 0.500000
         ACT 1
-        VIS 1 0 1.000000
+        VIS 1 1 1.000000
         LANEHEIGHT 0 0
         ARM 1
         DEFSHAPE 0 -1 -1
@@ -389,7 +389,7 @@
       >
       <PARMENV 5 0.000000 1.000000 0.500000
         ACT 1
-        VIS 1 0 1.000000
+        VIS 1 1 1.000000
         LANEHEIGHT 0 0
         ARM 1
         DEFSHAPE 0 -1 -1
@@ -412,7 +412,7 @@
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
-    SHOWINMIX 1 0.666700 0.500000 1 0.500000 -1 -1 -1
+    SHOWINMIX 1 0.666700 0.500000 1 0.500000 0 -1 0
     FREEMODE 0
     SEL 0
     REC 0 0 0 0 0 0 0
@@ -457,7 +457,7 @@
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
-    SHOWINMIX 1 0.666700 0.500000 1 0.500000 -1 -1 -1
+    SHOWINMIX 1 0.666700 0.500000 1 0.500000 0 -1 0
     FREEMODE 0
     SEL 0
     REC 0 0 0 0 0 0 0
